@@ -1,4 +1,4 @@
-#!/home/handyrod/.rvm/gems/ruby-2.2.1/bin/shotgun
+#!/home/debrod/.rvm/gems/ruby-2.2.1/bin/shotgun
 require 'rubygems'
 require 'sinatra'
 
@@ -16,57 +16,62 @@ get '/intro' do
         erb :intro
 end
 
-get '/fumer.erb' do
+get '/fumer' do
         erb :fumer
 end
-get '/attendre.erb' do
+
+get '/attendre' do
 	erb :attendre
 end
-get '/bavarder.erb' do
+get '/bavarder' do
            erb :bavarder
 end
-get '/cafe.erb' do
+
+get '/cafe' do
 	erb :cafe
 end
-get '/faire_tour.erb' do
+
+get '/faire_tour' do
            erb :faire_tour
 end
-get '/plan.erb' do
+
+get '/plan' do
            erb :plan
 end
-get '/toilettes.erb' do
+
+get '/toilettes' do
            erb :toilettes
 end
 
-get '/ordinateur.erb' do
+get '/ordinateur' do
 	erb :ordinateur
 end
 
-get '/ecran_noir.erb' do
+get '/ecran_noir' do
 	erb :ecran_noir
 end
 
-get '/cafouilli.erb' do
-	erb :cafouilli
+get '/caffouilli' do
+	erb :caffouilli
 end
 
-get '/console.erb' do
+get '/console' do
             erb :console
 end
 
-get '/fonctionnel.erb' do
+get '/fonctionnel' do
             erb :fonctionnel
 end
 
-get '/formater.erb' do
+get '/formater' do
             erb :formater
 end
 
-get '/lire.erb' do
+get '/lire' do
             erb :lire
 end
 
-get '/session.erb' do
+get '/session' do
 	erb :session
 end
 
