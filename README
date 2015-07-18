@@ -1,8 +1,9 @@
 Un site humoristique à partir de l'exercice sinatra_introduction.md
 
-Pour le faire fonctionner, dans la première ligne : 
+Pour le faire fonctionner, dans la première ligne :
 #!/home/handyrod/.rvm/gems/ruby-2.2.1/bin/shotgun
-Remplacez 'handyrod' par 'votre_nom_d_utilisateur', 
+Remplacez 'handyrod' par 'votre_nom_d_utilisateur',
 Allez dans le fichier en console et rendez exécutable le fichier simple.rb avec la commande :
 chmod +x simple.rb
+héhé
 
