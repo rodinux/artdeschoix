@@ -1,4 +1,4 @@
-#!/home/debrod/.rvm/gems/ruby-2.2.1/bin/shotgun
+#!/home/rodinux/.rvm/gems/ruby-2.2.1/bin/shotgun
 require 'rubygems'
 require 'sinatra'
 

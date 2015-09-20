@@ -1,10 +1,15 @@
 <html>
     <head>
+    <link rel="stylesheet" href="style2.css" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Art des Choix</title>    
     </head>
-    <body>
+    <body>   
         <form action="/" method="post">
-          <p>First name: <input type="text" name="post[first_name]" size="20"/></p>
-          <p>Last name: <input type="text" name="post[last_name]" size="20"/></p>
+          <p>Identifiant: <input type="text" name="post[id_user]" size="20"/></p>
+          <p>Mot de passe: <input type="text" name="post[password_user]" size="20"/></p>
           <input type="submit" value="Bienvenue simplonien !">
         </form>
     </body>
